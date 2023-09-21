@@ -12,10 +12,18 @@
 #' trim_fun(x)
 trim_fun<-function(x)
 {
-  mis_pos<-which.min(x)
-  max_pos<-which.max(x)
+  if(length(x)>=4)
+  {
+    mis_pos<-which.min(x)
+    max_pos<-which.max(x)
 
-  new_vec<-x[-c(mis_pos,max_pos)]
+    new_vec<-x[-c(mis_pos,max_pos)]
 
-  mean(new_vec)
+    mean(new_vec)
+
+  }
+  else{
+    stop("Input vector must have at least 4 values to calculate a trimmed mean.")
+  }
+
 }
