@@ -1,17 +1,20 @@
 #' calculates the length of the third side of right triangle
 #'
-#' @param a,b,c numeric values-
+#' @param a numeric value-
+#' @param b numeric value-
+#' @param c numeric value-
 #' @description
 #' he Pythagorean theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two side. Given the lengths of two sides of the triangle, this function calculates the length of the third side.
+#'
 #'
 #' @return a number
 #' @export
 #'
 #' @examples
-# Example usage:
-# righttriangle_third_side(a = 3, b = 4, ) # Calculate c
-# righttriangle_third_side(b = 4, c = 5, ) # Calculate a
-# righttriangle_third_side(a = 3, c = 5, ) # Calculate b
+#' righttriangle_third_side(a = 3, b = 4, ) # Calculate c
+#' righttriangle_third_side(b = 4, c = 5, ) # Calculate a
+#' righttriangle_third_side(a = 3, c = 5, ) # Calculate b
+
 
 
 righttriangle_third_side <- function(a=0, b=0, c=0) {
