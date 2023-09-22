@@ -1,11 +1,10 @@
 Package: bios.computing.hw6
 Type: Package
-Title: What the Package Does (Title Case)
+Title: trimmed mean and Pythagorean theorem
 Version: 0.1.0
-Author: Who wrote it
+Author: Md Moinul Ahsan
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Biostatistical Computing with R- HW6
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
