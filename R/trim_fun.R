@@ -9,21 +9,29 @@
 #'
 #' @examples
 #' x<-c(2,3,0,6,1,22,1,6,88)
-#' trim_fun(x)
-trim_fun<-function(x)
+#' s<-2
+#' l<-2
+#' trim_fun(x,s,l)
+trim_fun<-function(x,s,l)
 {
-  if(length(x)>=4)
-  {
-    mis_pos<-which.min(x)
-    max_pos<-which.max(x)
 
-    new_vec<-x[-c(mis_pos,max_pos)]
 
-    mean(new_vec)
 
-  }
+    if(length(x)<(s+l+1))
+    {
+      stop("Input vector must have at least (s+l+1) values to calculate a trimmed mean.")
+
+
+    }
   else{
-    stop("Input vector must have at least 4 values to calculate a trimmed mean.")
+
+    x<-sort(x)
+    left_trim<-1:s
+    right_trim<-length(x):(length(x)-(l-1))
+
+    trim_mean<- mean(x[-c(left_trim,right_trim)])
+    return(trim_mean)
+
   }
 
 }

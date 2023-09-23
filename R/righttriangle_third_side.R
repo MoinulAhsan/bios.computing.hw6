@@ -4,7 +4,7 @@
 #' @param b numeric value-
 #' @param c numeric value-
 #' @description
-#' he Pythagorean theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two side. Given the lengths of two sides of the triangle, this function calculates the length of the third side.
+#' The Pythagorean theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two side. Given the lengths of two sides of the triangle, this function calculates the length of the third side.
 #'
 #'
 #' @return a number
