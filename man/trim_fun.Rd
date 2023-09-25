@@ -4,7 +4,7 @@
 \alias{trim_fun}
 \title{Trimmed mean function}
 \usage{
-trim_fun(x)
+trim_fun(x, s, l)
 }
 \arguments{
 \item{x}{A numeric value-}
@@ -17,5 +17,7 @@ trimmed mean function that calculates the mean of a numeric vector, ignoring the
 }
 \examples{
 x<-c(2,3,0,6,1,22,1,6,88)
-trim_fun(x)
+s<-2
+l<-2
+trim_fun(x,s,l)
 }

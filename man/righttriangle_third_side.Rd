@@ -17,7 +17,7 @@ righttriangle_third_side(a = 0, b = 0, c = 0)
 a number
 }
 \description{
-he Pythagorean theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two side. Given the lengths of two sides of the triangle, this function calculates the length of the third side.
+The Pythagorean theorem states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two side. Given the lengths of two sides of the triangle, this function calculates the length of the third side.
 }
 \examples{
 righttriangle_third_side(a = 3, b = 4, ) # Calculate c
